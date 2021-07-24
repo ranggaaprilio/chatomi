@@ -73,7 +73,7 @@ const Chats = (props) => {
         <div className="chats-page">
             <div className="nav-bar">
                 <div className="logo-tab">
-                    catomi
+                    chatomi
                 </div>
             </div>
             <div className="logout-tab" onClick={handleLogout} >

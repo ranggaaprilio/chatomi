@@ -12,7 +12,9 @@ export const AuthProvider =({children})=>{
     const [user,setUser] = useState(null);
 
     useEffect(()=>{
+    
         auth.onAuthStateChanged(user=>{
+            console.log(user,"catomi user log info");
             setUser(user);
             setLoading(false);
 
